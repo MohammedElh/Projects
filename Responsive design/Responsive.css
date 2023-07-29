@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,600&family=REM&family=Victor+Mono:wght@700&display=swap');body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px grey;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.nav-1 {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+h6{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-buttons{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    transition-duration: 0.5s;
+}
+.nav-buttons:hover{
+    font-size: 30px;
+}
+#content-1{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    margin-top: 80px;
+    padding-top: 100px;
+}
+#content-1-part1{
+    padding-left: 100px;
+}
+.h10{
+    margin: 0;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+}
+.p1{
+    width: 60%;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'REM', sans-serif;
+}
+#content-1-part1 .nav-buttons{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: 'REM', sans-serif;
+    padding: 17px;
+}
+#trusted-div{
+    display: flex;
+    font-family: 'REM', sans-serif;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.trusted{
+    width: auto;
+    height: 20px;
+}
+#hermes{
+    height: 35px;
+}
+#casio{
+    height: 15px;
+}
+#content-1-part2{
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/marketing.jpg);
+    background-repeat: no-repeat;
+    background-size: 160% auto;
+    background-position: 0px 0px;
+    border-radius: 10px;
+}
+#revenue{
+    background-color: yellow;
+    padding: 0px;
+}
+#content-2{
+    margin-top: 200px;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+}
+#content-2-part1{
+    width: 100%;
+    height: 100%;
+    background-image: url(Images/work.jpg);
+    background-repeat: no-repeat;
+    background-size: 180% auto;
+    background-position: -0px -250px;
+    border-radius: 10px;
+}
+#content-2-part2{
+    padding-left: 100px;
+}
+#button-type2{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    position: relative;
+}
+#button-type2::after{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+#content-3{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    grid-gap: 30px;
+    padding: 0px;
+}
+.content3-divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content3-icons{
+    background-color: black;
+    max-width: 30px;
+    height: 25px;
+    height: auto;
+    padding: 10px;
+    border-radius: 100px;
+}
+.h13{
+    font-size: 50px;
+    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.p3{
+    font-size: 15px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    height: 600px;
+    background-color: teal;
+    background-image: url(Images/footer.jpg);
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#pf{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-family: 'REM', sans-serif;
+}
+.hf{
+    font-size: 40px;
+    font-family: 'REM', sans-serif;
+
+    
+}
+.footer-part1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+}
+#copyright{
+    font-size: 15px;
+    font-family: 'REM', sans-serif;
+    margin-top: 100px;
+    width: 400px;
+    text-align: justify;
+}
+.footer-button{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    border-radius: 100px;
+    transition-duration: 0.5s;
+}
+#footer-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+#footer-icons{
+    margin-top: 20px;
+}
+#footer-part2{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}

@@ -1,0 +1,88 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif
+}
+#d0{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 250px;
+    margin-top: 130px;
+}
+#d01{
+    width: 450px;
+    margin-top: 50px;
+}
+#d021{
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+h1{
+    margin-top: 60px;
+    font-size: 50px;
+    color: blue;
+}
+#p0{
+    width: 350px;
+    font-size: 20px;
+}
+.i0{
+    width: 340px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 10px;
+}
+#b0{
+    width: 360px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+#forget{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: blue;
+}
+#b1{
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgb(0, 186, 0);
+    border: none;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px black;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    cursor: pointer;
+}
+hr{
+    margin-top: 15px;
+}
+#p1{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 11px;
+}
+h2{
+    margin: 200px;
+}
+#d2{
+    display: inline-flex;
+}
+#d21{
+    width: 100px;
+    background-color: black;
+    margin-top: 1000px;
+}
