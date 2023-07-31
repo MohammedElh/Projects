@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,600&family=REM&family=Victor+Mono:wght@700&display=swap');
+
+* {
+    font-family: 'REM', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+#sidebar {
+    position: fixed;
+    width: 17%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+
+}
+
+.profil {
+    display: flex;
+    height: 45vh;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+    justify-content: center;
+    background-color: rgb(11, 167, 167);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    text-shadow: 0px 0px 10px grey;
+
+}
+
+#first-name {
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.name1 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+h6 {
+    color: rgb(0, 91, 91);
+}
+
+.side-btns {
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: flex-end;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+}
+
+.side-button {
+    max-width: fit-content;
+    background-color: white;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.side-button:hover {
+    color: rgb(11, 167, 167);
+}
+
+.side-button:focus {
+    background-color: rgb(11, 167, 167);
+    color: white;
+}
+
+.hr-side {
+    padding: 0.1px;
+    background-color: black;
+    border: none;
+    width: 90%;
+    margin-right: 5%;
+}
+
+#Start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg2.jpg);
+    background-size: 100% 100%;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.intro-button {
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    margin: 30px;
+}
+
+#intro-button-1:hover {
+    background-color: white;
+    color: rgb(11, 167, 167);
+    font-size: 18px;
+
+}
+
+#intro-button-1 {
+    background-color: rgb(11, 167, 167);
+}
+
+#intro-button-2 {
+    border: 1px solid white;
+}
+
+#intro-button-2:hover {
+    font-size: 18px;
+}
+
+#h2-intro {
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(0, 126, 126);
+    text-shadow: 0px 0px 5px rgba(44, 44, 44, 0.3);
+}
+
+.name2 {
+    font-size: 50px;
+}
+
+.intro-text {
+    color: white;
+    text-shadow: 0px 0px 10px gray;
+}
+
+#div-btn-intro {
+    height: 80px;
+}
+
+#Resume-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.title2 {
+    max-width: fit-content;
+    box-sizing: border-box;
+    margin-left: 25%;
+    margin-top: 50px;
+    font-size: 25px;
+    color: grey;
+}
+
+.Resume-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.grid-icons {
+    width: 62px;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    width: 90%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.specialities-icons {
+    float: left;
+    width: 30px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.h5 {
+    font-size: 5px;
+    margin: 0;
+}
+
+.hr-special {
+    margin: 10px;
+    width: 80%;
+}
+
+#special-divs {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+.special-p {
+    font-size: 12px;
+}
+
+.skills-icon {
+    width: 50px;
+}
+
+#skills-icons {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+#gotomyresume {
+    position: absolute;
+
+}
+
+.Education-date {
+    margin: 0;
+    font-size: 10px;
+    color: black
+}
+
+.Education-degree {
+    margin: 0;
+    color: black
+}
+
+.Education-school {
+    font-size: 10px;
+    color: black
+}
+
+ul {
+    color: cadetblue;
+}
+
+#portfolio-grid {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    height: 100vh;
+}
+
+#projects {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-gap: 30px;
+}
+
+.project-items {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.Project-divs:hover{
+    margin-top: -20px;
+}
+
+.Project-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 10px black;
+    transition-duration: 0.5s;
+}
+
+#project1 {
+    background-image: url(/images/facebook\ login\ page.png);
+    background-size: 100% 100%;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 10px;
+}
+
+#project2 {
+    background-image: url(/images/Youtube\ clone.png);
+    background-size: 100% 100%;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 10px;
+}
+
+#project3 {
+    background-image: url(/images/Css\ positons.png);
+    background-size: 100% 100%;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 10px;
+}
+
+#project4 {
+    background-image: url(/images/Grid\ design.png);
+    background-size: 100% 100%;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 10px;
+}
+
+#project5 {
+    background-image: url(/images/Upnext\ Design.png);
+    background-size: 100% 100%;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: multiply;
+    color: white;
+    border-radius: 10px;
+}
+
+.project-caption {
+    font-size: 10px;
+}
+
+.view-project {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.view-project:hover {
+    background-color: rgb(255, 255, 255, .8);
+    color: black;
+    border: 1px solid grey;
+}
+#contact{
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+    padding-top: 5vh;
+}
+#contact-me{
+    height: 90vh;
+    width: 400px;
+    margin-left: 25%;
+    background-color: rgb(0, 47, 47);
+    color: white;
+    padding: 20px;
+}
+.contact-icons{
+    float: left;
+    width: 15px;
+}
+.contact-infos{
+    font-size: 12px;
+    margin-left: 20px;
+}
+#contact-me-msg{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+#contact-btn{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(11, 167, 167);
+    color: white;
+    border:none;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+#contact-btn:hover{
+    background-color: white;
+    color: rgb(11, 167, 167);
+    font-size: 20px;
+}
+.contact-icons2{
+    width: 30px;
+    border-radius: 100px;
+}
+#check{
+    margin-top: 40px;
+}
+.contact-icons-btn{
+    background-color: transparent;
+    width: 35px;
+    border-radius: 100px;
+    margin: 10px;
+    border: none;
+}
+#ContactForm{
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(11, 167, 167);
+    position: fixed;
+    right: -500px;
+    color: white;
+    padding-left: 20px;
+    transition-duration: 1s;
+}
+.form-label{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+#form-title{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.form-input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+
+}
+#send{
+width: 200px;
+height: 60px;
+    background-color: rgb(0, 64, 64);
+    color: white;
+    border:none;
+    border-radius: 100px;
+    font-size: 15px;
+    margin-left: 20%;
+    margin-top: 30px;
+    transition-duration: 0.5s;
+}
+#send:hover{
+    color:  rgb(0, 64, 64);
+    background-color: white;
+    font-size: 18px;
+}
+#X-btn{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: white;
+    color: rgb(11, 167, 167);
+    border-radius: 100px;
+    border: none;
+    transition-duration: 0.2s;
+}
+#X-btn:hover{
+    background-color: rgb(11, 167, 167) ;
+    color: white;
+}
